@@ -1,8 +1,9 @@
 import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import getInfoReducer from '../features/counter/getInfo/getDetails'
 
 export default configureStore({
   reducer: {
-    counter: counterReducer,
+    bikeInfo : getInfoReducer,
+    //collisionInfo : collisionInfoReducer
   },
 });
