@@ -56,8 +56,9 @@ to run this project independently, you can run with below scripts
 
 ## Future Course of action
 1. keep UI consistent irrespective of change in display size
-2. Draw a line between where user wants to find distance
-3. Search for the neares collision location from bike start/end location
-4. give different search criterias to use based on location/time or fatality.
+2. Show **loading** or **please wait** button when map is loading
+3. Draw a line between where user wants to find distance
+4. Search for the neares collision location from bike start/end location
+5. give different search criterias to use based on location/time or fatality.
 
 
